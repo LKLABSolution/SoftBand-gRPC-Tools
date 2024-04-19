@@ -1,2 +1,36 @@
-# SoftBand-gRPC-Tools
-SoftBand gRPC-Tools repo
+# SoftBand gRPC-Tools 프로그램 데모 및 샘플 프로젝트
+
+이 저장소는 다양한 클라이언트 및 서버 애플리케이션을 위한 데모 버전과 샘플 프로그램을 포함하고 있습니다. 각 프로그램은 별도의 솔루션 파일을 가지며, 각기 다른 기술 스택(tech stack)을 사용합니다. 특히, gRPC 기반 마이크로서비스 프레임워크 코드 생성기를 포함하여, 빠르고 효율적인 서비스 개발을 지원합니다.
+
+## 프로젝트 구조
+
+본 프로젝트는 다음과 같이 구성되어 있습니다:
+
+- **ConsoleApp (Client)**: .NET 콘솔 애플리케이션 클라이언트
+- **Flutter (Client)**: Flutter를 이용한 모바일 애플리케이션 클라이언트
+- **Kotlin (Client)**: Kotlin을 사용한 안드로이드 클라이언트
+- **WebApp (ASP.NET Core) (Client)**: ASP.NET Core를 사용한 웹 애플리케이션 클라이언트
+
+- **GrpcService (Server)**: gRPC 서비스를 제공하는 서버. gRPC 기반의 마이크로서비스 아키텍처 구축을 위한 코드 생성기를 포함합니다.
+
+각 디렉토리에는 해당 기술을 사용하여 구현된 클라이언트 또는 서버 애플리케이션이 포함되어 있으며, 다양한 데이터베이스 기술을 통한 샘플 구현도 포함됩니다. 지원되는 데이터베이스는 다음과 같습니다:
+
+- **MSSQL (SQL Server)**
+- **Oracle**
+- **PostgreSQL**
+- **IBM DB2**
+- **MySQL**
+
+## 시작하기
+
+이 프로젝트를 사용하기 위해 필요한 사전 조건과 설치 방법을 안내합니다.
+
+### 사전 조건
+
+이 프로젝트를 실행하기 전에 다음 도구들이 설치되어 있어야 합니다:
+
+- .NET Core SDK (최신 버전)
+- Flutter SDK
+- Kotlin과 Android SDK
+- gRPC 지원 라이브러리
+- 각 데이터베이스에 맞는 클라이언트 라이브러리 및 도구
